@@ -1,3 +1,5 @@
+#Thank you to @financialnoob for writing this library https://github.com/financialnoob/pairs_trading
+
 from scipy.optimize import brentq
 from scipy.optimize import minimize_scalar
 from scipy import stats
