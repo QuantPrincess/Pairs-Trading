@@ -283,7 +283,7 @@ class Hurst:
                         # open long position
                         positions.loc[t] = [1,-1]
                         long = True
-                    elif (probs_trade.loc[t][opt_asset1[q]] > cl) and (probs_trade.loc[t][opt_asset1[q]] < (1-cl)):
+                    elif (probs_trade.loc[t][opt_asset1[q]] > cl) and (probs_trade.loc[t][opt_asset2[q]] < (1-cl)):
                         # open short positions
                         positions.loc[t] = [-1,1]
                         short = True
